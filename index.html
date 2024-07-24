@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <title>Calculadora de Matrizes</title>
+</head>
+
+<body>
+    <div class="container">
+        <nav id="menu">
+            <ul>
+                <li><a href="index.html">Calculadora</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <h1 id="instituicao">Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul - Campus Erechim</h1>
+    <div id="cabecalho">
+        <h2>Estudante: Gabrielli Luiza Frare</h2>
+        <h2>Desenvolvimento Web II</h2>
+    </div>
+    <hr>
+    <h2 class="titulo">Operações com Matrizes</h2>
+
+    <h2 id="bem-vindo">Bem-vindo à Calculadora de Matrizes</h2>
+    <p>Esta calculadora permite que você realize operações de soma, subtração e multiplicação em matrizes de ordem 2 ou
+        3. Clique no botão abaixo para começar a realizar os cálculos.</p>
+
+    <button onclick="iniciarOperacao()">Iniciar Operação</button>
+    <br>
+
+    <div id="explicacoes">
+        <h2>Um pouco sobre as operações</h2>
+
+        <h3>Soma de Matrizes</h3>
+        <p>A soma de matrizes é realizada pela soma dos elementos correspondentes de cada uma, ou seja, os elementos que
+            estão na mesma linha e coluna em ambas as matrizes.</p>
+
+        <h3>Subtração de Matrizes</h3>
+        <p>Na subtração de matrizes, o processo é semelhante a soma. A diferença é que ao invés de somar os elementos
+            correspondentes, deve-se fazer a operação contrária (subtração).</p>
+
+        <h3>Multiplicação de Matrizes</h3>
+        <p>Para calcular a multiplicação de duas matrizes, devemos multiplicar a linha 1 de uma matriz A pela coluna 1
+            de uma matriz
+            B e depois somar os produtos restantes. Assim, iremos obter o elemento C11 (linha 1 e coluna 1) de uma
+            matriz resultante C.</p>
+    </div>
+    <script src="js/javascript.js"></script>
+
+</body>
+
+</html>
